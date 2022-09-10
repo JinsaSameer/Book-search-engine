@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'react-bootstrap';
+//import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'react-bootstrap';
+import Jumbotron from '../node_modules/react-bootstrap/Jumbotron';
+import Container from '../node_modules/react-bootstrap/Container';
+import Col from '../node_modules/react-bootstrap/Col';
+import Form from '../node_modules/react-bootstrap/Form';
+import Button from '../node_modules/react-bootstrap/Button';
+import Card from '../node_modules/react-bootstrap/Card';
+import CardColumns from '../node_modules/react-bootstrap/CardColumns';
 
 import Auth from '../utils/auth';
 import { saveBook, searchGoogleBooks } from '../utils/API';

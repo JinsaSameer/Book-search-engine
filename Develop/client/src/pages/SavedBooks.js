@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
-import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
+//import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
+import CardColumns from 'react-bootstrap/CardColumns';
+import  Button from 'react-bootstrap/Button';
+import  Card from 'react-bootstrap/Card';
+
 
 //import { getMe, deleteBook } from '../utils/API';
 import Auth from '../utils/auth';
