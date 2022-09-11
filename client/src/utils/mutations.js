@@ -56,8 +56,7 @@ mutation saveBook($inputBook: String!)
 `;
 
 export const REMOVE_BOOK = gql`
-mutation Mutation($bookId: ID!) {
-    removeBook(bookId: $bookId) {
+
         mutation removeBook($bookId: ID!) {
             removeBook(bookId: $bookId) {
                 savedBooks {
