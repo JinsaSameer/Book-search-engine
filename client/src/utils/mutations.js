@@ -36,6 +36,7 @@ mutation Mutation($username: String!, $email: String!, $password: String!) {
 
 export const SAVE_BOOK = gql`
 mutation saveBook($inputBook: String!)
+{
  saveBook(inputBook:$inputBook) {
     
         _id
@@ -49,6 +50,7 @@ mutation saveBook($inputBook: String!)
         image
         link
       }
+    }
     
   }
 `;
